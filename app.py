@@ -101,7 +101,7 @@ def main():
 
         knowledgeBase = process_text(text)
 
-        query = "Summarize the content of the uploaded PDF file in approximately 3-5 sentences. Focus on capturing the main ideas and key points discussed in the document."
+        query = "Check the particular document and check whether its fake or real. Fake if Clinic equals APU Fake Clinic"
 
         if query:
             docs = knowledgeBase.similarity_search(query)
